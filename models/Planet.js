@@ -11,6 +11,9 @@ const Planet = sequelize.define('Planet', {
   },
   description: {
     type: DataTypes.TEXT
+  },
+  image: {
+    type: DataTypes.STRING
   }
 });
 

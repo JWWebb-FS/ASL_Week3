@@ -11,6 +11,9 @@ const Galaxy = sequelize.define('Galaxy', {
   },
   description: {
     type: DataTypes.TEXT
+  },
+  image: {
+    type: DataTypes.STRING
   }
 });
 

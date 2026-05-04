@@ -11,6 +11,9 @@ const Star = sequelize.define('Star', {
   },
   description: {
     type: DataTypes.TEXT
+  },
+  image: {
+    type: DataTypes.STRING
   }
 });
 
