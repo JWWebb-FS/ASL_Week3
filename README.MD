@@ -10,6 +10,11 @@ The API is designed to store and manage information about celestial objects:
 
 It supports full CRUD operations and demonstrates relational database concepts, including a many-to-many relationship.
 
+## Features
+- CRUD operations
+- Image uploads (multer)
+- HTML + JSON responses
+- Express + Sequelize + SQLite
 ---
 
 ## Technologies Used
